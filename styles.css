@@ -106,7 +106,11 @@ nav{
     font-size: 70px;
     margin-top: 50px;
     align-items: center;
-
+}
+    #c11{
+        font-size: 70px;
+        margin-top: 50px;
+        text-align: center;
 }
 
 
@@ -128,6 +132,7 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 80px;
 }
 .mm2{
     
@@ -173,15 +178,60 @@ nav{
     width: 40%;
     margin-left: 5%;
     margin-top: 80px;
-   
+}
+    .pr1{
+        width: 500px;
+    }
+   .pk1{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 150px;
+   }
+   .pk11{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
+    
+   }
+   .pk111{
+    font-size: 50px;
+    margin-bottom: 30px;
+   }
+    .pk121{
+        font-size: 20px;
+    }
+    .pk212{
 
+        color: blue;
+    }
+
+.pr1k{
+    width: 500px;
+    margin-right: 70px;
+  
+}
+.pk17{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+}
+.pr1l{
+    width: 500px;
+    height: 300px;
 }
 a{
     text-decoration: none;
     color: white;
 }
-
+.pr1k1{
+    width: 500px;
+    height: 400px;
+    margin-right: 70px;
+}
   
    @media only screen and (max-width: 600px){
     
@@ -225,4 +275,43 @@ a{
     margin-top: 50px;
     align-items: center;
    }
+   .pk1{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin-top: 80px;
+   }
+   .pk11{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   }
+   .pk17{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin-top: 80px;
+  }
 
+    .pr1{
+    width: 400px;
+    
+  }
+  .pr1k{
+    margin: 0px;
+    width: 400px;
+  
+}
+  .pr1k1{
+   margin: 0px;
+    width: 400px;
+    height: 400px;
+  }
+  .pr1l{
+    width: 400px;
+    height: 300px;
+   }
+}
