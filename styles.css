@@ -41,7 +41,7 @@ body {
 }
 .main {
     display: flex;
-    height: 100%;
+    /* height: 100%; */
     justify-content: space-between;
     align-items: center;
 }
@@ -143,10 +143,13 @@ a{
 }
 
   
-   @media only screen and (max-width: 1000px){
+   @media only screen and (max-width: 600px){
+    
     .main{
         display: flex;
         flex-direction:column-reverse;
+        /* width: 100%; */
+        text-align: center;
     }
     .main2{
         margin-left: 50px;
@@ -155,7 +158,8 @@ a{
     }
     .mm{
         margin-top: 150px;
-    width: 80vh;
+        align-items: center;
+    /* width: 100%; */
     }
     .l1{
         font-size: 50px;
