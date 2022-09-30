@@ -76,46 +76,86 @@ nav{
 }
 .b1{
    text-align: center;
-   line-height: 50px;
+   line-height: 30px;
    
   
 }
 #c1{
     margin-top: 150px;
-    margin-right: 80px;
+    align-items: center;
+    font-size: 50px;
+    margin-bottom: 30px;
     
+}
+#c2{
+    line-height: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 20px;
 }
 .b2{
     text-align: center;
 }
-#c2{
+.s1{
+    display: flex;
+    /* align-items: baseline; */
+    justify-content: space-around;
+    margin-top: 100px;
+}
+#c{
+    font-size: 70px;
     margin-top: 50px;
-    margin-right: 80px;
+    align-items: center;
 
 }
+
+
+.z1{display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+    
+
+}
+.z2{display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.z3{display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .mm2{
-    margin-top: 50px;
-    width: 300px;
-    margin-left: 15%;
-    margin-right: 250px;
+    
+   height: 200px;
+    width: 200px;
+    margin-bottom: 15px;
+    
+   
 }
 
   
 
 .mm3{
-    margin-top: 50px;
-    width: 200px;
-    margin-left: 25%;
-    margin-right: 360px;
+    
+    width: 180px;
+    height: 180px;
+    margin-bottom: 30px;
+    
 
 }
 .mm4{
-    margin-top: 50px;
-    width: 200px;
-    margin-left: 25%;
+    
+    width: 170px;
+    height: 170px;
+    margin-bottom: 30px;
     
 }
-#mm22{
+/* #mm22{
 
     margin-left: 230px;
     margin-right: 400px;
@@ -128,7 +168,7 @@ nav{
     text-align: center;
     margin-top: 80px;
     margin-right: 80px;
-}
+} */
 .p1{
     width: 40%;
     margin-left: 5%;
@@ -174,5 +214,15 @@ a{
         margin-top: 10px;
         font-size: 20px;
     }
+    .s1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 100px;
+   }
+   #c{
+    font-size: 70px;
+    margin-top: 50px;
+    align-items: center;
    }
 
