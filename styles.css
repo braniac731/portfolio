@@ -245,6 +245,13 @@ a{
     height: 400px;
     margin-right: 70px;
 }
+#lst{
+    font-size: 70px;
+        margin-top: 50px;
+        text-align: center;
+        color: whitesmoke;
+
+}
   
    @media only screen and (max-width: 600px){
     
@@ -327,4 +334,10 @@ a{
     width: 400px;
     height: 300px;
    }
+   .ok {
+    margin: auto;
+    color: white;
+    font-size: 10px;
+    cursor: pointer;
+  }
 }
