@@ -37,26 +37,100 @@ body {
 
 .ok:hover:after {
   transform: scaleX(1);
+  
 }
 h3 {
     font-size: 50px;
-  margin-top: 100px;
-  margin-left: 5%;
+  margin-top: 200px;
+  margin-left: 10%;
   margin-bottom: 5px;
 }
 h1 {
     font-size: 80px;
-  margin-left: 5%;
+  margin-left: 10%;
   margin-bottom: 5px;
 }
 p {
     font-size: 20px;
-  margin-left: 5%;
+  margin-left: 10%;
   width: 80%;
+  
 }
-img{
+.mm{
 
+    margin-top: 120px;
+ width: 95%;
+
+}
+nav{
+    position: fixed;
+    width: 100%;
+    opacity: 70%;
+}
+.b1{
+   text-align: center;
+   line-height: 50px;
+   
+  
+}
+#c1{
+    margin-top: 150px;
+    margin-right: 80px;
+    
+}
+.b2{
+    text-align: center;
+}
+#c2{
     margin-top: 50px;
- width: 90%;
+    margin-right: 80px;
 
+}
+.mm2{
+    margin-top: 50px;
+    width: 300px;
+    margin-left: 15%;
+    margin-right: 250px;
+}
+
+  
+
+.mm3{
+    margin-top: 50px;
+    width: 200px;
+    margin-left: 25%;
+    margin-right: 360px;
+
+}
+.mm4{
+    margin-top: 50px;
+    width: 200px;
+    margin-left: 25%;
+    
+}
+#mm22{
+
+    margin-left: 230px;
+    margin-right: 400px;
+}
+#mm33{
+    margin-right: 380px;
+
+}
+#c3{
+    text-align: center;
+    margin-top: 80px;
+    margin-right: 80px;
+}
+.p1{
+    width: 40%;
+    margin-left: 5%;
+    margin-top: 80px;
+    float: left;
+    
+
+}
+a{
+    text-decoration: none;
+    color: white;
 }
