@@ -5,7 +5,7 @@
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #00ffff;
+  background-color: #041C32;
 }
 
 .ok1 {
@@ -16,7 +16,7 @@ body {
   list-style: none;
   padding: 25px;
 
-  background-color: #18181b;
+  background-color: #111823;
 }
 
 .ok {
@@ -58,21 +58,23 @@ width: 100vh;
     font-size: 50px;
     margin-top: -50px;
     margin-bottom: 10px;
+    color: #607EAA;
 }
 .l2{
     font-size: 70px;
-
+    color: rgb(255, 255, 255);
 }
 .l3{
     margin-top: 10px;
     font-size: 20px;
+    color: #607EAA;
 }
 
 
 nav{
     position: fixed;
     width: 100%;
-    opacity: 70%;
+    /* opacity: 70%; */
 }
 .b1{
    text-align: center;
@@ -85,6 +87,7 @@ nav{
     align-items: center;
     font-size: 50px;
     margin-bottom: 30px;
+    color: whitesmoke;
     
 }
 #c2{
@@ -92,6 +95,7 @@ nav{
     margin-left: 50px;
     margin-right: 50px;
     font-size: 20px;
+    color: #607EAA;
 }
 .b2{
     text-align: center;
@@ -106,11 +110,18 @@ nav{
     font-size: 70px;
     margin-top: 50px;
     align-items: center;
+    color: white;
+
+}
+.LOL{
+
+    color: whitesmoke;
 }
     #c11{
         font-size: 70px;
         margin-top: 50px;
         text-align: center;
+        color: whitesmoke;
 }
 
 
@@ -198,9 +209,11 @@ nav{
    .pk111{
     font-size: 50px;
     margin-bottom: 30px;
+    color: whitesmoke;
    }
     .pk121{
         font-size: 20px;
+        color: #607EAA;
     }
     .pk212{
 
@@ -249,7 +262,7 @@ a{
     .mm{
         margin-top: 150px;
         align-items: center;
-    /* width: 100%; */
+       width: 100%;  
     }
     .l1{
         font-size: 50px;
