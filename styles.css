@@ -8,7 +8,7 @@ body {
   background-color: #041C32;
 }
 
-.ok1 {
+.nav_out {
   margin: 0;
   width: fill;
   display: flex;
@@ -19,14 +19,14 @@ body {
   background-color: #111823;
 }
 
-.ok {
+.nav_in {
   margin: auto;
   color: white;
   font-size: 20px;
   cursor: pointer;
 }
 
-.ok:after {
+.nav_in:after {
   display: block;
   content: "";
   border-bottom: solid 1px #00ffff;
@@ -35,36 +35,36 @@ body {
   transition: transform 300ms ease-in-out;
 }
 
-.ok:hover:after {
+.nav_in:hover:after {
   transform: scaleX(1);
   
 }
-.main {
+.home {
     display: flex;
     /* height: 100%; */
     justify-content: space-between;
     align-items: center;
 }
-.main2{
+.home_in{
     margin-left: 50px;
     margin-bottom: 200px;
-    margin-top: 400px;
+    margin-top: 300px;
 }
-.mm{
-    margin-top: 100px;
+.home_img{
+    margin-top: 15px;
 width: 100%;
 }
-.l1{
+.home_t1{
     font-size: 50px;
     margin-top: -50px;
     margin-bottom: 10px;
     color: #607EAA;
 }
-.l2{
+.home_t2{
     font-size: 70px;
     color: rgb(255, 255, 255);
 }
-.l3{
+.home_t3{
     margin-top: 10px;
     font-size: 20px;
     color: #607EAA;
@@ -76,13 +76,13 @@ nav{
     width: 100%;
     /* opacity: 70%; */
 }
-.b1{
+.about{
    text-align: center;
    line-height: 30px;
    
   
 }
-#c1{
+#about_head{
     margin-top: 150px;
     align-items: center;
     font-size: 50px;
@@ -90,34 +90,35 @@ nav{
     color: whitesmoke;
     
 }
-#c2{
+#about_txt{
     line-height: 40px;
     margin-left: 50px;
     margin-right: 50px;
     font-size: 20px;
+   
     color: #607EAA;
 }
-.b2{
+.skills_main{
     text-align: center;
 }
-.s1{
+.skills_row{
     display: flex;
     /* align-items: baseline; */
     justify-content: space-around;
     margin-top: 100px;
 }
-#c{
+#skills_head{
     font-size: 70px;
-    margin-top: 50px;
+    margin-top: 100px;
     align-items: center;
     color: white;
 
 }
-.LOL{
+.skills_title{
 
     color: whitesmoke;
 }
-    #c11{
+    #projects_head{
         font-size: 70px;
         margin-top: 50px;
         text-align: center;
@@ -125,7 +126,7 @@ nav{
 }
 
 
-.z1{display: flex;
+.skills_column{display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -133,19 +134,8 @@ nav{
     
 
 }
-.z2{display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 80px;
-}
-.z3{display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 80px;
-}
-.mm2{
+
+.blend{
     
    height: 200px;
     width: 200px;
@@ -156,7 +146,7 @@ nav{
 
   
 
-.mm3{
+.photoshop{
     
     width: 180px;
     height: 180px;
@@ -164,7 +154,7 @@ nav{
     
 
 }
-.mm4{
+.figma{
     
     width: 170px;
     height: 170px;
@@ -190,49 +180,49 @@ nav{
     margin-left: 5%;
     margin-top: 80px;
 }
-    .pr1{
+    .killjoy_img{
         width: 500px;
     }
-   .pk1{
+   .projects_img_left{
     display:flex;
     justify-content: space-around;
     align-items: center;
     margin-top: 150px;
    }
-   .pk11{
+   .projects_des{
     display: flex;
     flex-direction: column;
     align-items: center;
     
     
    }
-   .pk111{
+   .project_head{
     font-size: 50px;
     margin-bottom: 30px;
     color: whitesmoke;
    }
-    .pk121{
+    .project_txt{
         font-size: 20px;
         color: #607EAA;
     }
-    .pk212{
+    .project_link{
 
         color: blue;
     }
 
-.pr1k{
+.untitiled_img{
     width: 500px;
     margin-right: 70px;
   
 }
-.pk17{
+.project_img_right{
     display:flex;
     flex-direction: row-reverse;
     justify-content: space-around;
     align-items: center;
     margin-top: 80px;
 }
-.pr1l{
+.interface_img{
     width: 500px;
     height: 300px;
 }
@@ -240,19 +230,19 @@ a{
     text-decoration: none;
     color: white;
 }
-.pr1k1{
+.task2_img{
     width: 500px;
     height: 400px;
     margin-right: 70px;
 }
-#lst{
+#contact_head{
     font-size: 50px;
         margin-top: 100px;
         text-align: center;
         color: whitesmoke;
 
 }
-.con{
+.contact_inline{
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
@@ -260,69 +250,69 @@ a{
     margin-left: 400px;
     margin-right: 400px;
 }
-#ko{
+#icon_size{
     width: 50px;
 }
   
    @media only screen and (max-width: 961px){
     
-    .main{
+    .home{
         display: flex;
         flex-direction:column-reverse;
         /* width: 100%; */
         text-align: center;
     }
-    .main2{
+    .home_in{
         margin-left: 50px;
         margin-bottom: 0px;
         margin-top: 100px;
     }
-    .mm{
+    .home_img{
         margin-top: 70px;
         align-items: center;
        width: 100%;  
     }
-    .l1{
+    .home_t1{
         font-size: 50px;
         margin-top: -50px;
         margin-bottom: 10px;
         margin-right: 50px;
     }
-    .l2{
+    .home_t2{
         font-size: 70px;
        margin-right: 50px;    
     }
-    .l3{
+    .home_t3{
         
         margin-top: 10px;
         font-size: 20px;
         margin-right: 50px;
     }
-    .s1{
+    .skills_row{
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         margin-top: 100px;
    }
-   #c{
+   #skills_head{
     font-size: 70px;
     margin-top: 50px;
     align-items: center;
    }
-   .pk1{
+   .projects_img_left{
     display:flex;
     flex-direction: column;
     align-content: center;
     align-items: center;
     margin-top: 80px;
    }
-   .pk11{
+   .projects_des{
     margin-top: 50px;
     display: flex;
     flex-direction: column;
     text-align: center;
    }
-   .pk17{
+   .project_img_right{
     display:flex;
     flex-direction: column;
     align-content: center;
@@ -330,35 +320,30 @@ a{
     margin-top: 80px;
   }
 
-    .pr1{
+    .killjoy_img{
     width: 400px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
     
   }
-  .pr1k{
+  .untitiled_img{
     margin: 0px;
     width: 400px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   
 }
-  .pr1k1{
+  .task2_img{
    margin: 0px;
     width: 400px;
     height: 400px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
-  .pr1l{
+  .interface_img{
     width: 400px;
     height: 300px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    }
-   .ok {
-    margin: auto;
-    color: white;
-    font-size: 10px;
-    cursor: pointer;
-  }
-  .con{
+   
+  .contact_inline{
     display: flex;
     margin: 0px;
    
@@ -366,14 +351,14 @@ a{
     
     margin-bottom: 50px; 
     }
-    #lst{
+    #contact_head{
         font-size: 50px;
             margin-top: 100px;
             text-align: center;
             color: whitesmoke;
             margin-bottom: 50px;
     }
-    #c1{
+    #about_head{
         margin-top: -20x;
         align-items: center;
         font-size: 50px;
