@@ -252,6 +252,17 @@ a{
         color: whitesmoke;
 
 }
+.con{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+#ko{
+    width: 50px;
+}
   
    @media only screen and (max-width: 600px){
     
